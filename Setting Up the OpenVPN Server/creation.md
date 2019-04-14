@@ -1,6 +1,7 @@
 ***Kali Rolling ISO of DOOM, Too.***
 
 A while back we introduced the idea of Kali Linux Customisation by demonstrating the Kali Linux ISO of Doom. Our scenario covered the installation of a custom Kali configuration that contained select tools required for a remote vulnerability assessment. The customised Kali ISO would undergo an unattended autoinstall in a remote client site and automatically connect back to our OpenVPN server over TCP port 443. The OpenVPN connection would then bridge the remote and local networks, allowing us full “layer 3” access to the internal network from our remote location. The resulting custom ISO could then be sent to the client who would just pop it into a virtual machine template and the whole setup would happen automagically with no intervention – as depicted in the image below.
+![](https://github.com/nu11secur1ty/OFFENSIVE-SECURITY/blob/master/Setting%20Up%20the%20OpenVPN%20Server/img/kali-linux-agent2.png)
 
 ***Setting Up the OpenVPN Server***
 
