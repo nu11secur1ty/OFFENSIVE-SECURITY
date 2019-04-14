@@ -164,8 +164,7 @@ With this complete, our remote target network is now fully accessible via layer 
 
 And lastly, once again, a small tribute to Morbo:
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xoCZ07hwoZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![alt text](http://example.com/exampl.png)](http://example.com/link "title")
 
 
 
