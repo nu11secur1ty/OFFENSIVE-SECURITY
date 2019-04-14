@@ -120,29 +120,3 @@ msf auxiliary(mysql_version) > run
 [*] Auxiliary module execution completed
 msf auxiliary(mysql_version) >
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   
