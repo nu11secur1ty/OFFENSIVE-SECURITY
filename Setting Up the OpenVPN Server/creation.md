@@ -164,7 +164,7 @@ With this complete, our remote target network is now fully accessible via layer 
 
 And lastly, once again, a small tribute to Morbo:
 
-[![alt text](https://github.com/nu11secur1ty/OFFENSIVE-SECURITY/blob/master/wall/offsec2.png)](https://www.youtube.com/watch?v=tDP1I9Qxj0w&list= "title")
+[![alt text](https://github.com/nu11secur1ty/OFFENSIVE-SECURITY/blob/master/wall/offsec2.png)](https://www.youtube.com/channel/UC5eGL2BdINqHP19Dj4ak3YA "title")
 
 
 
