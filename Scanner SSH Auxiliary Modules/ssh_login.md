@@ -51,6 +51,7 @@ VERBOSE => false
 ```
 - Manual setup
 ```bash 
+use auxiliary/scanner/ssh/ssh_login
 set RHOSTS 0.0.0.0
 set RPORT 0000
 set USER_FILE /path/user.txt
