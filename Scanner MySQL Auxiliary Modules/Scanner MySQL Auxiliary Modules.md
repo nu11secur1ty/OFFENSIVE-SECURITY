@@ -1,3 +1,4 @@
+# Scanner MySQL Auxiliary Modules
 ***mysql_login***
 
 - The mysql_login auxiliary module is a brute-force login tool for MySQL servers.
